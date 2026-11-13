@@ -1,0 +1,85 @@
+/* ================= IMAGE REVEAL (shared by every page, minimal) =================
+   .img-reveal : the photo fades in and settles from a very slight zoom (0.9 s).
+   .img-wipe   : only for the home hero - the photo unmasks from the bottom up, once.
+   The scroll observer (useReveal) adds ".show" to the container, never to the image itself.
+   --i (0-2) delays neighbours by 70 ms. */
+
+/* the JS smooth-scroll does the gliding; a stylesheet's "scroll-behavior: smooth" would fight it */
+html.has-smooth-scroll {
+    scroll-behavior: auto;
+}
+
+.img-reveal.img-reveal img {
+    opacity: 0;
+    scale: 1.06;
+    transition:
+        opacity 0.9s ease calc(var(--i, 0) * 0.07s),
+        scale 1.3s cubic-bezier(0.22, 1, 0.36, 1) calc(var(--i, 0) * 0.07s),
+        transform 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+        filter 0.5s ease;
+}
+
+.img-reveal.img-reveal.show img {
+    opacity: 1;
+    scale: 1;
+}
+
+/* a second photo in the same block follows a beat later */
+.img-reveal.img-reveal img:nth-of-type(n + 2) {
+    --i: 2;
+}
+
+/* home hero: the one moment that unmasks from the bottom */
+.img-reveal.img-reveal.img-wipe img {
+    opacity: 1;
+    clip-path: inset(100% 0 0 0);
+    scale: 1.1;
+    transition:
+        clip-path 1.2s cubic-bezier(0.77, 0, 0.175, 1),
+        scale 1.6s cubic-bezier(0.22, 1, 0.36, 1),
+        transform 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+        filter 0.5s ease;
+}
+
+.img-reveal.img-reveal.img-wipe.show img {
+    clip-path: inset(0 0 0 0);
+    scale: 1;
+}
+
+/* one hover for every image: a gentle 3% zoom */
+.img-reveal.img-reveal:hover img {
+    transform: scale(1.03);
+}
+
+/* nav links: underline slides in on hover */
+.nav-links a {
+    position: relative;
+}
+
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.nav-links a:hover::after {
+    transform: scaleX(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .img-reveal.img-reveal img,
+    .img-reveal.img-reveal.img-wipe img {
+        opacity: 1;
+        scale: 1;
+        clip-path: none;
+        transition: none;
+    }
+}
