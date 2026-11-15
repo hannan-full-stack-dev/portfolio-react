@@ -102,7 +102,77 @@ const galleryCards = [
     "kind": "normal"
   },
   {
-    "id": 9,
+    "id": 10,
+    "category": "achievement",
+    "title": "Another Achievement",
+    "year": "2020",
+    "image": "/Images/Achivement-18.jpeg",
+    "alt": "Achievement",
+    "label": "ACHIEVEMENT · 2020",
+    "kind": "normal"
+  },
+  {
+    "id": 11,
+    "category": "achievement",
+    "title": "Another Achievement",
+    "year": "2020",
+    "image": "/Images/Achivement-19.jpeg",
+    "alt": "Achievement",
+    "label": "ACHIEVEMENT · 2020",
+    "kind": "normal"
+  },
+  {
+    "id": 12,
+    "category": "achievement",
+    "title": "Another Achievement",
+    "year": "2020",
+    "image": "/Images/Achivement-20.jpeg",
+    "alt": "Achievement",
+    "label": "ACHIEVEMENT · 2020",
+    "kind": "normal"
+  },
+  {
+    "id": 13,
+    "category": "achievement",
+    "title": "Another Achievement",
+    "year": "2020",
+    "image": "/Images/Achivement-21.jpeg",
+    "alt": "Achievement",
+    "label": "ACHIEVEMENT · 2020",
+    "kind": "normal"
+  },
+  {
+    "id": 14,
+    "category": "achievement",
+    "title": "Another Achievement",
+    "year": "2020",
+    "image": "/Images/Achivement-22.jpeg",
+    "alt": "Achievement",
+    "label": "ACHIEVEMENT · 2020",
+    "kind": "normal"
+  },
+  {
+    "id": 15,
+    "category": "achievement",
+    "title": "Another Achievement",
+    "year": "2020",
+    "image": "/Images/Achivement-23.jpeg",
+    "alt": "Achievement",
+    "label": "ACHIEVEMENT · 2020",
+    "kind": "normal"
+  },
+  {
+    "id": 16,
+    "category": "achievement",
+    "title": "Another Achievement",
+    "year": "2020",
+    "image": "/Images/Achivement-24.jpeg",
+    "alt": "Achievement",
+    "label": "ACHIEVEMENT · 2020",
+    "kind": "normal"
+  },
+  {
+    "id": 18,
     "category": "visit",
     "title": "Project Site Visit",
     "year": "2025",
@@ -112,7 +182,7 @@ const galleryCards = [
     "kind": "visit-large"
   },
   {
-    "id": 9,
+    "id": 19,
     "category": "visit",
     "title": "Site Inspection",
     "year": "2025",
@@ -122,7 +192,7 @@ const galleryCards = [
     "kind": "normal"
   },
   {
-    "id": 10,
+    "id": 20,
     "category": "visit",
     "title": "Field Work",
     "year": "2024",
@@ -132,7 +202,7 @@ const galleryCards = [
     "kind": "normal"
   },
   {
-    "id": 11,
+    "id": 21,
     "category": "visit",
     "title": "Field Work",
     "year": "2024",
@@ -142,7 +212,7 @@ const galleryCards = [
     "kind": "normal"
   },
   {
-    "id": 12,
+    "id": 22,
     "category": "visit",
     "title": "Field Work",
     "year": "2024",
@@ -152,7 +222,7 @@ const galleryCards = [
     "kind": "normal"
   },
   {
-    "id": 13,
+    "id": 23,
     "category": "visit",
     "title": "Field Work",
     "year": "2024",
@@ -162,7 +232,7 @@ const galleryCards = [
     "kind": "normal"
   },
   {
-    "id": 14,
+    "id": 24,
     "category": "visit",
     "title": "Field Work",
     "year": "2024",
@@ -172,7 +242,7 @@ const galleryCards = [
     "kind": "normal"
   },
   {
-    "id": 15,
+    "id": 25,
     "category": "visit",
     "title": "Field Work",
     "year": "2024",
@@ -182,7 +252,7 @@ const galleryCards = [
     "kind": "normal"
   },
   {
-    "id": 16,
+    "id": 26,
     "category": "visit",
     "title": "Field Work",
     "year": "2024",
@@ -192,17 +262,17 @@ const galleryCards = [
     "kind": "normal"
   },
   {
-    "id": 17,
+    "id": 27,
     "category": "family",
     "title": "Family Moment",
     "year": "2026",
-    "image": "/Images/Family-5.jpeg",
+    "image": "/Images/Family-1.jpeg",
     "alt": "Family",
     "label": "FAMILY · 2026",
     "kind": "family-main"
   },
   {
-    "id": 18,
+    "id": 28,
     "category": "family",
     "title": "Memorable Day",
     "year": "2025",
@@ -212,11 +282,181 @@ const galleryCards = [
     "kind": "normal"
   },
   {
-    "id": 19,
+    "id": 29,
     "category": "family",
     "title": "A Special Moment",
     "year": "2025",
     "image": "/Images/Family-3.jpg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 30,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-5.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 31,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-6.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 32,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-7.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 33,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-8.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 34,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-9.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 35,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-10.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 36,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-11.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 37,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-12.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 38,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-13.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 39,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-14.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 40,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-15.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 41,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-16.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 42,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-17.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 43,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-18.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 44,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-19.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 45,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-20.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 46,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-21.jpeg",
     "alt": "Family",
     "label": "FAMILY · 2025",
     "kind": "normal"

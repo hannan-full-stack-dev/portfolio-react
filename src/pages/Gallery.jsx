@@ -116,7 +116,6 @@ export default function Gallery() {
               <p>PROJECT VISIT · 2025</p>
             </div>
           </div>
-          <div className="hero-image-number reveal delay-3">01</div>
         </div>
       </section>
 

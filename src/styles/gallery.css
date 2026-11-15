@@ -293,18 +293,6 @@ em {
     margin-top: 8px;
 }
 
-/*  IMAGE NUMBER  */
-.hero-image-number {
-    position: absolute;
-    right: -30px;
-    top: 40px;
-    font-family: "Playfair Display", serif;
-    font-size: 80px;
-    color: var(--gold);
-    opacity: 0.18;
-    line-height: 1;
-}
-
 /*  HERO DECORATION  */
 .gallery-hero::before {
     content: "";
@@ -603,10 +591,7 @@ em {
     height: 360px;
 }
 
-/* 
-   PROJECT COMPLETION
- */
-/* ================= CAREER HIGHLIGHTS ================= */
+/*  CAREER HIGHLIGHTS  */
 .career-highlights {
     padding: 150px 7vw;
     border-top: 1px solid var(--border);
@@ -793,19 +778,34 @@ em {
 }
 
 /* 
-   FAMILY
- */
+/* FAMILY */
 .family-grid {
     display: grid;
-    grid-template-columns:
-        1.5fr 1fr;
-    grid-template-rows:
-        320px 320px;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: 320px 320px;  
+    grid-auto-rows: auto;            
     gap: 15px;
 }
 
+
 .family-main {
+    grid-column: span 9;
     grid-row: span 2;
+}
+
+.family-grid > .gallery-card:nth-child(2),
+.family-grid > .gallery-card:nth-child(3) {
+    grid-column: span 6;
+}
+
+.family-grid > .gallery-card:nth-child(n + 4) {
+    grid-column: span 5;
+    aspect-ratio: 4 / 3;
+}
+
+.family-grid .gallery-card img {
+    object-fit: contain;
+    background: var(--dark-2);
 }
 
 /* 
@@ -1219,12 +1219,6 @@ footer p {
         height: min(600px, 75vw);
     }
 
-    .hero-image-number {
-        right: 15px;
-        top: 25px;
-        font-size: 65px;
-    }
-
     /*  INTRO  */
     .gallery-intro {
         padding: 90px 6vw;
@@ -1436,12 +1430,6 @@ footer p {
         bottom: 25px;
     }
 
-    .hero-image-number {
-        right: 10px;
-        top: 20px;
-        font-size: 55px;
-    }
-
     .gallery-intro {
         padding: 75px 5vw;
     }
@@ -1507,11 +1495,6 @@ footer p {
         height: 250px;
     }
 
-    .family-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: 220px 220px;
-        gap: 40px;
-    }
 
     .card-overlay {
         padding: 25px 20px;
@@ -1745,10 +1728,6 @@ footer p {
         flex: 1 1 calc(50% - 4px);
     }
 
-    .gallery-category {
-        padding-top: 65px;
-        padding-bottom: 65px;
-    }
 
     .featured-achievement {
         height: 380px;
@@ -1770,19 +1749,6 @@ footer p {
     .achievement-grid .gallery-card,
     .visit-grid .gallery-card {
         height: 300px;
-    }
-
-    .family-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: none;
-    }
-
-    .family-grid .gallery-card {
-        height: 300px;
-    }
-
-    .family-main {
-        grid-row: auto;
     }
 
     .card-overlay {
@@ -1936,7 +1902,7 @@ footer p {
 
     .achievement-grid .gallery-card,
     .visit-grid .gallery-card,
-    .family-grid .gallery-card {
+    .gallery-card {
         height: 270px;
     }
 
@@ -1946,6 +1912,38 @@ footer p {
 
     .stat-number {
         font-size: 55px;
+    }
+}
+
+/* 768px ar tar niche: proti row te 2 ta */
+@media (max-width: 768px) {
+    .family-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: none;
+        grid-auto-rows: auto;
+        gap: 10px;
+    }
+
+    /* main image puro width */
+    .family-main {
+        grid-column: 1 / -1;
+        grid-row: auto;
+        aspect-ratio: 4 / 3;
+    }
+
+    /* baki shob image: 2 ta kore proti row te */
+    .family-grid > .gallery-card:nth-child(n + 2) {
+        grid-column: auto;
+        grid-row: auto;
+        aspect-ratio: 4 / 3;
+    }
+}
+
+/* 480px ar tar niche: ekdom choto phone, still 2 ta kore */
+@media (max-width: 480px) {
+    .family-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
     }
 }
 
