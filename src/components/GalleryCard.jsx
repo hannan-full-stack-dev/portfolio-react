@@ -21,7 +21,7 @@ export default function GalleryCard({ card, hidden, onOpen, index = 0 }) {
       className={classes.join(" ")}
       role="button"
       tabIndex={0}
-      style={{ "--i": index % 3 }}
+     style={{ "--i": index % 3, "--bg": `url("${card.image}")` }}
       onClick={open}
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") {

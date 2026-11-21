@@ -803,9 +803,30 @@ em {
     aspect-ratio: 4 / 3;
 }
 
+/* Blurred background layer */
+.family-grid .gallery-card::before {
+    content: "";
+    position: absolute;
+    inset: -30px;                /* blur er edge jate kata na dekhay */
+    background: var(--bg) center / cover no-repeat;
+    filter: blur(28px) brightness(0.55) saturate(1.2);
+    z-index: 0;
+}
+
 .family-grid .gallery-card img {
+    position: relative;
+    z-index: 1;
     object-fit: contain;
-    background: var(--dark-2);
+    background: transparent; 
+}
+
+.family-grid .gallery-card .featured-achievement-info,
+.family-grid .gallery-card .card-overlay {
+    z-index: 3;
+}
+
+.family-grid .gallery-card::after {
+    z-index: 4;
 }
 
 /* 
