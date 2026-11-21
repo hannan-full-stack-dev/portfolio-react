@@ -29,15 +29,20 @@ A modern, responsive portfolio website for an **Architectural Engineer & 3D Visu
 
 ## 📁 Project Structure
 
-​```
-src/
-├── components/   # Navbar, Footer, ProjectCard, ProjectModal, Lightbox, ...
-├── pages/        # Home, About, Projects, Gallery
-├── hooks/        # useSmoothScroll, useReveal, useDocumentTitle, ...
-├── data/         # site.js, projects.js, gallery.js (edit content here)
-└── styles/       # Page stylesheets
-public/           # Images and CV
-​```
+```text
+portfolio-react/
+├── public/                 # Images and CV (static files)
+├── src/
+│   ├── components/         # Navbar, Footer, ProjectCard, ProjectModal, Lightbox, ...
+│   ├── pages/              # Home, About, Projects, Gallery
+│   ├── hooks/              # useSmoothScroll, useReveal, useDocumentTitle, ...
+│   ├── data/               # site.js, projects.js, gallery.js (edit content here)
+│   └── styles/             # Page stylesheets
+├── index.html
+├── netlify.toml            # Netlify build and redirect config
+├── vite.config.js
+└── package.json
+```
 
 ## 🚀 Getting Started
 
