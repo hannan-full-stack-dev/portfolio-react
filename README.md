@@ -2,8 +2,9 @@
 
 A modern, responsive portfolio website for an **Architectural Engineer & 3D Visualizer**, showcasing architectural designs, 3D visualizations and field-supervised civic projects. Built as a fast single-page app with **React + Vite**.
 
-<img width="720" height="405" alt="preview" src="https://github.com/user-attachments/assets/e13f68eb-bbda-456e-b0cc-e611757882d2" />
+🔗 **Live Demo:** [portfolio-react-pi-sable.vercel.app](https://mdmoklasurrahmangolap.vercel.app/)
 
+![preview](https://github.com/user-attachments/assets/e13f68eb-bbda-456e-b0cc-e611757882d2)
 
 ## ✨ Features
 
@@ -15,17 +16,17 @@ A modern, responsive portfolio website for an **Architectural Engineer & 3D Visu
 - **Accessible modals** — focus management, scroll lock, keyboard-friendly
 - **Downloadable CV** from the About page
 - **Easy content editing** — all text, projects and gallery items live in simple data files (no code changes needed)
-- **Netlify-ready** — SPA redirects and legacy `.html` URL redirects included
+- **Vercel-ready** — SPA rewrites and legacy `.html` URL redirects included
 
 ## 🛠️ Tech Stack
 
-| Area | Tools |
-| --- | --- |
-| Framework | React 18 |
-| Build tool | Vite 5 |
-| Routing | React Router v6 |
-| Styling | Custom CSS |
-| Deployment | Netlify |
+| Area       | Tools           |
+| ---------- | --------------- |
+| Framework  | React 18        |
+| Build tool | Vite 5          |
+| Routing    | React Router v6 |
+| Styling    | Custom CSS      |
+| Deployment | Vercel          |
 
 ## 📁 Project Structure
 
@@ -39,42 +40,46 @@ portfolio-react/
 │   ├── data/               # site.js, projects.js, gallery.js (edit content here)
 │   └── styles/             # Page stylesheets
 ├── index.html
-├── netlify.toml            # Netlify build and redirect config
+├── vercel.json             # Vercel SPA rewrites and redirects
 ├── vite.config.js
 └── package.json
 ```
 
 ## 🚀 Getting Started
 
-​```bash
-git clone https://github.com/<your-username>/portfolio-react.git
+```bash
+git clone https://github.com/hannan-full-stack-dev/portfolio-react.git
 cd portfolio-react
 npm install
 npm run dev        # http://localhost:5173
-​```
+```
 
 Production build:
 
-​```bash
+```bash
 npm run build
 npm run preview
-​```
+```
 
 ## ✏️ Customizing Content
 
-| What | File |
-| --- | --- |
-| Name, contact, CV path, skills, experience | `src/data/site.js` |
-| Projects (cards + popup details) | `src/data/projects.js` |
-| Gallery photos | `src/data/gallery.js` |
-| Images / CV file | `public/Images`, `public/Files` |
+| What                                       | File                            |
+| ------------------------------------------ | ------------------------------- |
+| Name, contact, CV path, skills, experience | `src/data/site.js`              |
+| Projects (cards + popup details)           | `src/data/projects.js`          |
+| Gallery photos                             | `src/data/gallery.js`           |
+| Images / CV file                           | `public/Images`, `public/Files` |
 
 ## 🌐 Deployment
 
-Connect the repo to Netlify — `netlify.toml` configures everything automatically
-(build: `npm run build`, publish: `dist`).
+Deployed on [Vercel](https://vercel.com). To deploy your own copy:
+
+1. Import the repo on Vercel (Vite is auto-detected)
+2. Build command: `npm run build`, Output directory: `dist`
+3. `vercel.json` handles SPA routing so `/about`, `/projects` and `/gallery` work on refresh
 
 ## 👨‍💻 Developed by
 
 **Hannan Goljar** — Full Stack Developer
-[GitHub](https://github.com/hannan-full-stack-dev) · [LinkedIn](https://www.linkedin.com/in/hannan-full-stack-dev/) · hghannan2@gmail.com
+
+[GitHub](https://github.com/hannan-full-stack-dev) · [LinkedIn](https://www.linkedin.com/in/hannan-full-stack-dev/) · [hghannan2@gmail.com](mailto:hghannan2@gmail.com)
