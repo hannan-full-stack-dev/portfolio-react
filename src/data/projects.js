@@ -1448,23 +1448,23 @@ const projects = [
   // ─────────────── #57 ───────────────
   {
     id: 57,
-    image: "/Images/Project---59.jpeg",
-    category: "ENTRANCE GATE · ARCHITECTURE",
-    title: "Sontura Pukhuri Atimkhana Entrance Gate",
-    description: "This 3D design presents a modern architectural style for Sontura Pukhuri Atimkhana, featuring a secure and aesthetically pleasing entrance gate.",
-    location: "Boda, Panchagarh",
+    image: "/Images/Project---64.jpeg",
+    category: "RESIDENTIAL · ARCHITECTURE",
+    title: "Munira House",
+    description: "This 3D Design presents a modern residential house with a spacious layout, large windows for natural light, and a landscaped garden, combining contemporary design with functional living spaces.",
+    location: "Bilpara, Pirganj, Thakurgaon",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
-    status: "Completed",
-    client: "Sontura Pukhuri Atimkhana Committee",
+    status: "Ongoing",
+    client: "MST Munira",
     area: "N/A",
     floors: "N/A",
-    style: "Modern Entrance Gate Design",
+    style: "Modern Residential Design",
     structure: "RCC frame with brick infill walls",
     duration: "8 months",
     role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
-    overview: "This is a modern entrance gate design for Sontura Pukhuri Atimkhana, combining traditional and contemporary architectural elements to create a welcoming and secure entry point for visitors.",
+    overview: "This is a modern residential design for Munira House, combining contemporary design with functional living spaces.",
     materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
     features: ["N/A"],
     tools: ["AutoCAD", "3ds Max"],
@@ -1548,23 +1548,23 @@ const projects = [
   // ─────────────── #61 ───────────────
   {
     id: 61,
-    image: "/Images/Project---18.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
-    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    image: "/Images/Project---63.jpeg",
+    category: "EIDGA  · ARCHITECTURE",
+    title: "Sat Khamar Eidga ",
+    description: "This 3D design presents a modern architectural style for Sat Khamar Eidga, featuring an open-air prayer area with traditional design elements, providing a serene and spiritual environment for worshippers during Eid celebrations.",
+    location: "Boda, Panchagarh",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
     status: "Completed",
-    client: "Client / owner name",
-    area: "Approx. 3,000 sq ft",
-    floors: "G + 2",
+    client: "Sat Khamar Eidga Committee",
+    area: "N/A",
+    floors: "N/A",
     style: "Modern Contemporary",
     structure: "RCC frame with brick infill walls",
     duration: "8 months",
     role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
-    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    overview: "This project is a modern Eidga design that incorporates traditional design elements, providing a serene and spiritual environment for worshippers during Eid celebrations.",
     materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
     features: ["N/A"],
     tools: ["AutoCAD", "3ds Max"],
@@ -2295,6 +2295,32 @@ const projects = [
     tools: ["AutoCAD", "3ds Max"],
     images: [],
   },
+
+   // ─────────────── #91 ───────────────
+  {
+    id: 61,
+    image: "/Images/Project---18.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  }
 
 ];
 
