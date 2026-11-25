@@ -1598,7 +1598,32 @@ const projects = [
   // ─────────────── #63 ───────────────
   {
     id: 63,
-    image: "/Images/Project---20.jpeg",
+    image: "/Images/Project---65.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #64 ───────────────
+  {
+    id: 62,
+    image: "/Images/Project---66.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -1623,16 +1648,16 @@ const projects = [
   // ─────────────── #64 ───────────────
   {
     id: 64,
-    image: "/Images/Project---21.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
-    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    image: "/Images/Project---68.jpeg",
+    category: "MOSQUE· ARCHITECTURE",
+    title: "Nurani Jame Mosjid",
+    description: "This 3D design presents a modern architectural style for Nurani Jame Mosjid, featuring traditional Islamic elements, including domes and minarets, set in a serene environment.",
+    location: "South Goddimari, Hatibandha, Lalmonirhat",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
     status: "Completed",
-    client: "Client / owner name",
+    client: "Nurani Jame Mosjid Committee",
     area: "Approx. 3,000 sq ft",
     floors: "G + 2",
     style: "Modern Contemporary",
@@ -1648,18 +1673,18 @@ const projects = [
   // ─────────────── #65 ───────────────
   {
     id: 65,
-    image: "/Images/Project---22.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
-    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    image: "/Images/Project---69.jpeg",
+    category: "EIDGA · ARCHITECTURE",
+    title: "Samserpara Nagar Bel Toly Eidga Years",
+    description: "This 3D design presents a modern architectural style for Samserpara Nagar Bel Toly Eidga, featuring an open-air prayer area with traditional design elements, providing a serene and spiritual environment for worshippers during Eid celebrations.",
+    location: "Boda, Panchagarh",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
     status: "Completed",
-    client: "Client / owner name",
+    client: "Samserpara Nagar Bel Toly Eidga Committee",
     area: "Approx. 3,000 sq ft",
-    floors: "G + 2",
+    floors: "N/A",
     style: "Modern Contemporary",
     structure: "RCC frame with brick infill walls",
     duration: "8 months",
@@ -1673,18 +1698,18 @@ const projects = [
   // ─────────────── #66 ───────────────
   {
     id: 66,
-    image: "/Images/Project---23.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    image: "/Images/Project---70.jpeg",
+    category: "SCHOOL · ARCHITECTURE",
+    title: "Bir Muktijoddha Akramul Haque Model School",
+    description: "This 3D design presents a modern architectural style for Bir Muktijoddha Akramul Haque Model School, featuring functional classrooms, administrative spaces, and recreational areas designed to create an inspiring educational environment.",
     location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
     status: "Completed",
-    client: "Client / owner name",
+    client: "Bir Muktijoddha Akramul Haque Model School Committee",
     area: "Approx. 3,000 sq ft",
-    floors: "G + 2",
+    floors: "N/A",
     style: "Modern Contemporary",
     structure: "RCC frame with brick infill walls",
     duration: "8 months",
@@ -1698,8 +1723,8 @@ const projects = [
   // ─────────────── #67 ───────────────
   {
     id: 67,
-    image: "/Images/Project---24.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    image: "/Images/Project---71.jpeg",
+    category: "MOSQUE · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
     location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
@@ -1723,11 +1748,11 @@ const projects = [
   // ─────────────── #68 ───────────────
   {
     id: 68,
-    image: "/Images/Project---25.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
-    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    image: "/Images/Project---72.jpeg",
+    category: "RESIDENTIAL · ARCHITECTURE",
+    title: "Modern House of Ex Upazila Chairman Boda,Panchagarh",
+    description: "This 3D design presents a modern residential house with a spacious layout, large windows for natural light, and a landscaped garden, combining contemporary design with functional living spaces.",
+    location: "Near of Sakowa Bazar Boda, Panchagarh",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
@@ -1748,16 +1773,16 @@ const projects = [
   // ─────────────── #69 ───────────────
   {
     id: 69,
-    image: "/Images/Project---26.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
-    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    image: "/Images/Project---73.jpeg",
+    category: "RESIDENTIAL · ARCHITECTURE",
+    title: "Sayed Ali House",
+    description: "This 3D design presents a modern residential house with a spacious layout, large windows for natural light, and a landscaped garden, combining contemporary design with functional living spaces.",
+    location: "Gourupur, Thakurgaon",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
     status: "Completed",
-    client: "Client / owner name",
+    client: "Sayed Ali",
     area: "Approx. 3,000 sq ft",
     floors: "G + 2",
     style: "Modern Contemporary",
@@ -1773,16 +1798,16 @@ const projects = [
   // ─────────────── #70 ───────────────
   {
     id: 70,
-    image: "/Images/Project---27.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
-    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    image: "/Images/Project---74.jpeg",
+    category: "MEMORIAL · ARCHITECTURE",
+    title: "Bamonhat High School Shohid Minar",
+    description: "This 3D design presents a modern architectural style for Bamonhat High School Shohid Minar, featuring a symbolic structure that honors the martyrs, with artistic elements and inscriptions that reflect the historical significance of the site.",
+    location: "Mareya, Boda, Panchagarh",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
     status: "Completed",
-    client: "Client / owner name",
+    client: "Bamonhat High School Committee",
     area: "Approx. 3,000 sq ft",
     floors: "G + 2",
     style: "Modern Contemporary",
@@ -1798,10 +1823,10 @@ const projects = [
   // ─────────────── #71 ───────────────
   {
     id: 71,
-    image: "/Images/Project---28.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    image: "/Images/Project---75.jpeg",
+    category: "RESIDENTIAL · ARCHITECTURE",
+    title: "Modern Residential House ",
+    description: "This 3D design presents a modern residential house with a spacious layout, large windows for natural light, and a landscaped garden, combining contemporary design with functional living spaces.",
     location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
     year: "2024",
 
@@ -1823,16 +1848,16 @@ const projects = [
   // ─────────────── #72 ───────────────
   {
     id: 72,
-    image: "/Images/Project---29.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
-    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    image: "/Images/Project---76.jpeg",
+    category: "RESIDENTIAL · ARCHITECTURE",
+    title: "Rasel Plaza ",
+    description: "This 3D design presents a modern residential house with a spacious layout, large windows for natural light, and a landscaped garden, combining contemporary design with functional living spaces.",
+    location: "Boda, Panchagarh",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
     status: "Completed",
-    client: "Client / owner name",
+    client: "Rasel",
     area: "Approx. 3,000 sq ft",
     floors: "G + 2",
     style: "Modern Contemporary",
@@ -1848,16 +1873,16 @@ const projects = [
   // ─────────────── #73 ───────────────
   {
     id: 73,
-    image: "/Images/Project---30.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
-    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    image: "/Images/Project---77.jpeg",
+    category: "RESIDENTIAL · ARCHITECTURE",
+    title: "Asekur Complex",
+    description: "This 3D design presents a modern residential house with a spacious layout, large windows for natural light, and a landscaped garden, combining contemporary design with functional living spaces.",
+    location: "Pirganj, Thakurgaon",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
     status: "Completed",
-    client: "Client / owner name",
+    client: "Asekur",
     area: "Approx. 3,000 sq ft",
     floors: "G + 2",
     style: "Modern Contemporary",
@@ -1873,16 +1898,16 @@ const projects = [
   // ─────────────── #74 ───────────────
   {
     id: 74,
-    image: "/Images/Project---31.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    image: "/Images/Project---78.jpeg",
+    category: "SCHOOL · ARCHITECTURE",
+    title: "Vabnaganj Bazar MOdel School",
+    description: "This 3D design presents a modern architectural style for Vabnaganj Bazar Model School, featuring functional classrooms, administrative spaces, and recreational areas designed to create an inspiring educational environment.",
     location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
     status: "Completed",
-    client: "Client / owner name",
+    client: "Vabnaganj Bazar Model School Committee",
     area: "Approx. 3,000 sq ft",
     floors: "G + 2",
     style: "Modern Contemporary",
@@ -1898,16 +1923,16 @@ const projects = [
   // ─────────────── #75 ───────────────
   {
     id: 75,
-    image: "/Images/Project---32.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
-    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    image: "/Images/Project---79.jpeg",
+    category: "RESIDENTIAL · ARCHITECTURE",
+    title: "Md Idrish Ali Complex",
+    description: "This 3D design presents a modern residential house with a spacious layout, large windows for natural light, and a landscaped garden, combining contemporary design with functional living spaces.",
+    location: "Dinajpur",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
     status: "Completed",
-    client: "Client / owner name",
+    client: "Md Idrish Ali",
     area: "Approx. 3,000 sq ft",
     floors: "G + 2",
     style: "Modern Contemporary",
@@ -1923,11 +1948,11 @@ const projects = [
   // ─────────────── #76 ───────────────
   {
     id: 76,
-    image: "/Images/Project---33.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
-    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    image: "/Images/Project---80.jpeg",
+    category: "MOSQUE · ARCHITECTURE",
+    title: "Choknakra Uttor Para Ahle Hadith Jame Mosjid",
+    description: "This 3D design presents a modern architectural style for Choknakra Uttor Para Ahle Hadith Jame Mosjid, featuring traditional Islamic elements, including domes and minarets, set in a serene environment.",
+    location: "Gobindaganj, Gaibandha",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
@@ -1948,16 +1973,16 @@ const projects = [
   // ─────────────── #77 ───────────────
   {
     id: 77,
-    image: "/Images/Project---34.jpeg",
-    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
-    title: "Organization of Youth Sornali Projonmo ",
-    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
-    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    image: "/Images/Project---81.jpeg",
+    category: "RESIDENTIAL · ARCHITECTURE",
+    title: "Ayman Cottage",
+    description: "This 3D design presents a modern residential house with a spacious layout, large windows for natural light, and a landscaped garden, combining contemporary design with functional living spaces.",
+    location: "Pirganj, Thakurgaon",
     year: "2024",
 
     // ↓ SAMPLE DETAILS (popup) - replace with real information
     status: "Completed",
-    client: "Client / owner name",
+    client: "Ayman",
     area: "Approx. 3,000 sq ft",
     floors: "G + 2",
     style: "Modern Contemporary",
@@ -1970,10 +1995,10 @@ const projects = [
     tools: ["AutoCAD", "3ds Max"],
     images: [],
   },
-  // ─────────────── #78──────────────
+  // ─────────────── #78 ───────────────
   {
     id: 78,
-    image: "/Images/Project---35.jpeg",
+    image: "/Images/Project---21.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -1998,7 +2023,7 @@ const projects = [
   // ─────────────── #79 ───────────────
   {
     id: 79,
-    image: "/Images/Project---47.jpeg",
+    image: "/Images/Project---22.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -2023,7 +2048,7 @@ const projects = [
   // ─────────────── #80 ───────────────
   {
     id: 80,
-    image: "/Images/Project---36.jpeg",
+    image: "/Images/Project---23.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -2048,7 +2073,7 @@ const projects = [
   // ─────────────── #81 ───────────────
   {
     id: 81,
-    image: "/Images/Project---37.jpeg",
+    image: "/Images/Project---24.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -2073,7 +2098,7 @@ const projects = [
   // ─────────────── #82 ───────────────
   {
     id: 82,
-    image: "/Images/Project---38.jpeg",
+    image: "/Images/Project---25.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -2098,7 +2123,7 @@ const projects = [
   // ─────────────── #83 ───────────────
   {
     id: 83,
-    image: "/Images/Project---39.jpeg",
+    image: "/Images/Project---26.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -2123,7 +2148,7 @@ const projects = [
   // ─────────────── #84 ───────────────
   {
     id: 84,
-    image: "/Images/Project---40.jpeg",
+    image: "/Images/Project---27.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -2148,7 +2173,7 @@ const projects = [
   // ─────────────── #85 ───────────────
   {
     id: 85,
-    image: "/Images/Project---41.jpeg",
+    image: "/Images/Project---28.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -2173,7 +2198,7 @@ const projects = [
   // ─────────────── #86 ───────────────
   {
     id: 86,
-    image: "/Images/Project---42.jpeg",
+    image: "/Images/Project---29.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -2198,7 +2223,7 @@ const projects = [
   // ─────────────── #87 ───────────────
   {
     id: 87,
-    image: "/Images/Project---43.jpeg",
+    image: "/Images/Project---30.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -2223,7 +2248,7 @@ const projects = [
   // ─────────────── #88 ───────────────
   {
     id: 88,
-    image: "/Images/Project---44.jpeg",
+    image: "/Images/Project---31.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -2248,7 +2273,7 @@ const projects = [
   // ─────────────── #89 ───────────────
   {
     id: 89,
-    image: "/Images/Project---45.jpeg",
+    image: "/Images/Project---32.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
     description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
@@ -2273,6 +2298,356 @@ const projects = [
   // ─────────────── #90 ───────────────
   {
     id: 90,
+    image: "/Images/Project---33.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #91 ───────────────
+  {
+    id: 91,
+    image: "/Images/Project---34.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #92──────────────
+  {
+    id: 92,
+    image: "/Images/Project---35.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #93 ───────────────
+  {
+    id: 93,
+    image: "/Images/Project---47.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #94 ───────────────
+  {
+    id: 94,
+    image: "/Images/Project---36.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #95 ───────────────
+  {
+    id: 95,
+    image: "/Images/Project---37.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #96 ───────────────
+  {
+    id: 96,
+    image: "/Images/Project---38.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #97 ───────────────
+  {
+    id: 97,
+    image: "/Images/Project---39.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #98 ───────────────
+  {
+    id: 98,
+    image: "/Images/Project---40.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #99 ───────────────
+  {
+    id: 99,
+    image: "/Images/Project---41.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #100 ───────────────
+  {
+    id: 100,
+    image: "/Images/Project---42.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #101 ───────────────
+  {
+    id: 101,
+    image: "/Images/Project---43.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #102 ───────────────
+  {
+    id: 102,
+    image: "/Images/Project---44.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #103 ───────────────
+  {
+    id: 103,
+    image: "/Images/Project---45.jpeg",
+    category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
+    title: "Organization of Youth Sornali Projonmo ",
+    description: "This 3D design presents an open-air event stage and podium for Pathraj Government College, constructed with brick masonry, protective railings, and artistic backdrop elements set against a green campus landscape.",
+    location: "Vabnaganj Bajar, Pirganj, Thakurgaon",
+    year: "2024",
+
+    // ↓ SAMPLE DETAILS (popup) - replace with real information
+    status: "Completed",
+    client: "Client / owner name",
+    area: "Approx. 3,000 sq ft",
+    floors: "G + 2",
+    style: "Modern Contemporary",
+    structure: "RCC frame with brick infill walls",
+    duration: "8 months",
+    role: "Plan, Architural Drawing, 3D visualization, Estimated & Supervision",
+    overview: "Write a short paragraph about this project: the idea, the layout and what makes it special.",
+    materials: ["RCC", "Brick masonry", "Tiles", "Glass"],
+    features: ["N/A"],
+    tools: ["AutoCAD", "3ds Max"],
+    images: [],
+  },
+  // ─────────────── #104 ───────────────
+  {
+    id: 104,
     image: "/Images/Project---46.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",
@@ -2296,9 +2671,9 @@ const projects = [
     images: [],
   },
 
-   // ─────────────── #91 ───────────────
+  // ─────────────── #105 ───────────────
   {
-    id: 61,
+    id: 105,
     image: "/Images/Project---18.jpeg",
     category: "OFFICE & RESIDENTIAL · ARCHITECTURE",
     title: "Organization of Youth Sornali Projonmo ",

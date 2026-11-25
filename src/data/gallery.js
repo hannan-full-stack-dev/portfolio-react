@@ -172,6 +172,16 @@ const galleryCards = [
     "kind": "normal"
   },
   {
+    "id": 17,
+    "category": "achievement",
+    "title": "Another Achievement",
+    "year": "2020",
+    "image": "/Images/Achivement-25.jpeg",
+    "alt": "Achievement",
+    "label": "ACHIEVEMENT · 2020",
+    "kind": "normal"
+  },
+  {
     "id": 18,
     "category": "visit",
     "title": "Project Site Visit",
@@ -512,6 +522,146 @@ const galleryCards = [
     "kind": "normal"
   },
   {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-69.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-70.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-71.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-72.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-73.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-74.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-75.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-76.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-77.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-78.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-79.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-80.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-81.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
+    "id": 52,
+    "category": "visit",
+    "title": "Field Work",
+    "year": "2024",
+    "image": "/Images/Project-Visit-82.jpeg",
+    "alt": "Field Work",
+    "label": "FIELD WORK · 2024",
+    "kind": "normal"
+  },
+  {
     "id": 53,
     "category": "family",
     "title": "Family Moment",
@@ -807,6 +957,16 @@ const galleryCards = [
     "title": "A Special Moment",
     "year": "2025",
     "image": "/Images/Family-32.jpeg",
+    "alt": "Family",
+    "label": "FAMILY · 2025",
+    "kind": "normal"
+  },
+  {
+    "id": 82,
+    "category": "family",
+    "title": "A Special Moment",
+    "year": "2025",
+    "image": "/Images/Family-33.jpeg",
     "alt": "Family",
     "label": "FAMILY · 2025",
     "kind": "normal"
